@@ -9,10 +9,10 @@ def bubble_sort_by(arr)
         arr[i + 1] = v
         b = true
       end
-    i + 1
+      i + 1
     end
   end
-  return arr
+  p arr
 end
 
 array = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
