@@ -1,13 +1,13 @@
 def bubble_sort_by
-    b = false
-    while !b do
-      b = true
+  b = false
+    while b
+      b = false
       self.length().times do |i|
         if self[i] != self.last && self[i] > self[i+1]
           v = self[i];
           self[i] = self[i+1];
           self[i+1] = v;
-          b = false
+          b = true
         end
         i+=1;
       end
