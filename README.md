@@ -4,7 +4,8 @@
 
 # Getting started :
 
-I built this little bubble sort method in Ruby. I used a while loop and a "switch button" (true or false b variable) to know when the array is sorted and a "times do" loop to move trough the array and sort it.
+I built two little bubble sort methods in Ruby. I used a while loop and a "switch button" (true or false b variable) to know when the array is sorted and a "times do" loop to move trough the array and sort it. In this project I'm using all the basics things that I learned to build this sort methods like varibles, loops, conditions, data structure like arrays, methods definition, debugging options, etc.
+This project is completely for learning purpose.
 
 # Prerequisites :
 
@@ -33,6 +34,10 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page. Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgement
+
+Thanks to The Odin Project. Is the webpage where I learned most of the topics in this project.
 
 ## 📝 Licensed MIT
 
