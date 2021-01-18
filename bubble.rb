@@ -19,7 +19,7 @@ def bubble_sort_by(arr)
   while b
     b = false
     arr.length.times do |i|
-      next unless arr[i] != arr.last && arr[i].length > arr[i + 1].length
+      if arr[i] != arr.last && arr[i].length > arr[i + 1].length
         v = arr[i]
         arr[i] = arr[i + 1]
         arr[i + 1] = v
