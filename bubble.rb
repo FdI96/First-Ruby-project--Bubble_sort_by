@@ -4,7 +4,7 @@ def bubble_sort(arr)
     b = false
     arr.length.times do |i|
       if arr[i + 1] && arr[i] > arr[i + 1]
-        arr[i] , arr[i + 1] = arr[i + 1] , arr[i]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
         b = true
       end
     end
@@ -18,7 +18,7 @@ def bubble_sort_by(arr)
     b = false
     arr.length.times do |i|
       if arr[i + 1] && arr[i].length > arr[i + 1].length
-        arr[i] , arr[i + 1] = arr[i + 1] , arr[i]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
         b = true
       end
     end
